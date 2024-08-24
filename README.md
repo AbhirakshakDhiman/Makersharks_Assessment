@@ -1,11 +1,15 @@
 To Run this Springboot Rest API, You have to do some following steps
 
 1. Download zip file and extract it.
+
 2. Add into to your eclipse IDE
+
 3. Goto terminal and goto this folder
-4. Run this commnad in terminal
-   >>mvn spring-boot:run
+
+4. Run this commnad in terminal:mvn spring-boot:run
+
 5.Your Api will start
+
 6.Open  command prompt and write the following curl command to add a new supplier
    >>curl -X POST "http://localhost:8080/api/supplier/new" -H "Content-Type: application/json" -d "{\"location\": \"India\", \"natureOfBusiness\": \"LARGE_SCALE\", \"manufacturingProcesses\": [\"MOULDING\"]}"
    
