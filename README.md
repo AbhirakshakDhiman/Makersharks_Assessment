@@ -25,7 +25,7 @@ To Run this Springboot Rest API, You have to do some following steps
    >>curl -X POST "http://localhost:8080/api/supplier/query" -H "Content-Type: application/json" -d "{\"location\": \"India\", \"natureOfBusiness\": \"SMALL_SCALE\", \"manufacturingProcesses\": [\"MOULDING\", \"CASTING
 
    You will get this type of response
-   {
+   >>'{
     "totalElements": 3,
     "totalPages": 1,
     "size": 10,
@@ -85,4 +85,4 @@ To Run this Springboot Rest API, You have to do some following steps
         "unpaged": false
     },
     "empty": false
-}
+}'
